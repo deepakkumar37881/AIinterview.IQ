@@ -1,6 +1,6 @@
 
 import { initializeApp } from "firebase/app";
-import {getAuth, GoogleAuthProvider} from "firebase/auth"
+import {getAuth, GoogleAuthProvider} from "firebase/Auth"
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
   authDomain: "aiinterview-4dc3b.firebaseapp.com",
